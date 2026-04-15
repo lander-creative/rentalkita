@@ -7,7 +7,7 @@ const cars = [
     name: "Honda HR-V",
     category: "SUV",
     tag: "Terlaris",
-    image: "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&q=80&w=800",
+    image: "/src/assets/honda-hrv.jpg",
     transmission: "Otomatis",
     seats: 5,
     fuel: "Bensin",
@@ -18,7 +18,7 @@ const cars = [
     name: "Toyota Innova Zenix",
     category: "MPV",
     tag: "Keluarga",
-    image: "https://images.unsplash.com/photo-1609521263047-f8f205293f24?auto=format&fit=crop&q=80&w=800",
+    image: "/src/assets/toyota-innova-zenix.jpg",
     transmission: "Hybrid",
     seats: 7,
     fuel: "Bensin",
@@ -29,7 +29,7 @@ const cars = [
     name: "Mitsubishi Pajero Sport",
     category: "SUV",
     tag: "Premium",
-    image: "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&q=80&w=800",
+    image: "/src/assets/pajero.jpg",
     transmission: "Otomatis",
     seats: 7,
     fuel: "Diesel",
@@ -40,7 +40,7 @@ const cars = [
     name: "Toyota Avanza",
     category: "MPV",
     tag: "Ekonomis",
-    image: "https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?auto=format&fit=crop&q=80&w=800",
+    image: "/src/assets/toyota-avanza.jpg",
     transmission: "Manual",
     seats: 7,
     fuel: "Bensin",
@@ -51,7 +51,7 @@ const cars = [
     name: "Honda Brio",
     category: "City Car",
     tag: "Hemat BBM",
-    image: "https://images.unsplash.com/photo-1541443131876-44b03de101c5?auto=format&fit=crop&q=80&w=800",
+    image: "/src/assets/honda-brio.jpg",
     transmission: "Otomatis",
     seats: 5,
     fuel: "Bensin",
@@ -62,7 +62,7 @@ const cars = [
     name: "Toyota Alphard",
     category: "Luxury",
     tag: "VIP",
-    image: "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?auto=format&fit=crop&q=80&w=800",
+    image: "/src/assets/toyota-alphard.jpg",
     transmission: "Otomatis",
     seats: 7,
     fuel: "Bensin",
@@ -129,11 +129,10 @@ export default function FleetPage() {
                 key={cat}
                 id={`filter-cat-${cat.toLowerCase().replace(' ', '-')}`}
                 onClick={() => setActiveCategory(cat)}
-                className={`px-4 py-2 rounded-full text-sm font-bold transition-all duration-200 ${
-                  activeCategory === cat
-                    ? 'brand-gradient text-white shadow-md glow-shadow-primary'
-                    : 'bg-surface-container text-on-surface-variant hover:bg-primary/10 hover:text-primary border border-outline-variant/30'
-                }`}
+                className={`px-4 py-2 rounded-full text-sm font-bold transition-all duration-200 ${activeCategory === cat
+                  ? 'brand-gradient text-white shadow-md glow-shadow-primary'
+                  : 'bg-surface-container text-on-surface-variant hover:bg-primary/10 hover:text-primary border border-outline-variant/30'
+                  }`}
               >
                 {cat}
               </button>
