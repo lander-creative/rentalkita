@@ -163,7 +163,7 @@ export default function NavBar() {
               Sewa Sekarang
             </button>
             <a
-              href="https://wa.me/6281234567890"
+              href="https://wa.me/6282394263103"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-3 w-full flex items-center justify-center gap-2 bg-[#25D366] text-white py-3.5 rounded-2xl font-bold text-sm hover:bg-[#1ebe5d] transition-colors"

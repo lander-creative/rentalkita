@@ -71,7 +71,7 @@ export default function FAQ() {
         <div className="mt-12 text-center">
           <p className="text-on-surface-variant font-body mb-4">Masih punya pertanyaan lain?</p>
           <a
-            href="https://wa.me/6281234567890"
+            href="https://wa.me/6282394263103"
             target="_blank"
             rel="noopener noreferrer"
             id="faq-whatsapp-cta"

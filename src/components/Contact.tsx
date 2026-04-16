@@ -30,12 +30,12 @@ export default function Contact() {
                 <div>
                   <h5 className="font-headline font-bold text-on-surface mb-1">WhatsApp</h5>
                   <a
-                    href="https://wa.me/6281234567890"
+                    href="https://wa.me/6282394263103"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-sm text-[#25D366] font-body font-bold hover:underline"
+                    className="text-primary hover:underline"
                   >
-                    +62 812-3456-7890
+                    +62 823-9426-3103
                   </a>
                   <p className="text-xs text-on-surface-variant mt-0.5">Respon cepat, 24 jam</p>
                 </div>
@@ -55,7 +55,7 @@ export default function Contact() {
 
             {/* Quick WA Button */}
             <a
-              href="https://wa.me/6281234567890"
+              href="https://wa.me/6282394263103"
               target="_blank"
               rel="noopener noreferrer"
               id="contact-wa-quick"

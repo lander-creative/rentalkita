@@ -1,4 +1,4 @@
-const WA_NUMBER = "6281234567890"; // Ganti dengan nomor WA asli
+const WA_NUMBER = "6282394263103"; // Ganti dengan nomor WA asli
 
 export function buildWAUrl(message: string): string {
   return `https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(message)}`;
