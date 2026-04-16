@@ -1,13 +1,19 @@
 import TrustSignals from '../components/TrustSignals';
 import FAQ from '../components/FAQ';
 import { openWA, WA_MESSAGES } from '../utils/whatsapp';
+import hondaHrvImg from '../assets/honda-hrv.jpg';
+import innovaZenixImg from '../assets/toyota-innova-zenix.jpg';
+import pajeroImg from '../assets/pajero.jpg';
+import avanzaImg from '../assets/toyota-avanza.jpg';
+import brioImg from '../assets/honda-brio.jpg';
+import alphardImg from '../assets/toyota-alphard.jpg';
 
 const cars = [
   {
     name: "Honda HR-V",
     category: "SUV",
     tag: "Terlaris",
-    image: "../assets/honda-hrv.jpg",
+    image: hondaHrvImg,
     transmission: "Otomatis",
     seats: 5,
     fuel: "Bensin",
@@ -18,7 +24,7 @@ const cars = [
     name: "Toyota Innova Zenix",
     category: "MPV",
     tag: "Keluarga",
-    image: "../assets/toyota-innova-zenix.jpg",
+    image: innovaZenixImg,
     transmission: "Hybrid",
     seats: 7,
     fuel: "Bensin",
@@ -29,7 +35,7 @@ const cars = [
     name: "Mitsubishi Pajero Sport",
     category: "SUV",
     tag: "Premium",
-    image: "/src/assets/pajero.jpg",
+    image: pajeroImg,
     transmission: "Otomatis",
     seats: 7,
     fuel: "Diesel",
@@ -40,7 +46,7 @@ const cars = [
     name: "Toyota Avanza",
     category: "MPV",
     tag: "Ekonomis",
-    image: "/src/assets/toyota-avanza.jpg",
+    image: avanzaImg,
     transmission: "Manual",
     seats: 7,
     fuel: "Bensin",
@@ -51,7 +57,7 @@ const cars = [
     name: "Honda Brio",
     category: "City Car",
     tag: "Hemat BBM",
-    image: "/src/assets/honda-brio.jpg",
+    image: brioImg,
     transmission: "Otomatis",
     seats: 5,
     fuel: "Bensin",
@@ -62,7 +68,7 @@ const cars = [
     name: "Toyota Alphard",
     category: "Luxury",
     tag: "VIP",
-    image: "/src/assets/toyota-alphard.jpg",
+    image: alphardImg,
     transmission: "Otomatis",
     seats: 7,
     fuel: "Bensin",

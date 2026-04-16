@@ -1,9 +1,13 @@
+import hondaHrvImg from '../assets/honda-hrv.jpg';
+import innovaZenixImg from '../assets/toyota-innova-zenix.jpg';
+import pajeroImg from '../assets/pajero.jpg';
+
 export const cars = [
   {
     name: "Honda HR-V",
     tag: "Terlaris",
     description: "Kenyamanan ekstra untuk perjalanan kota.",
-    image: "../assets/honda-hrv.jpg",
+    image: hondaHrvImg,
     alt: "White modern SUV",
     transmission: "Otomatis",
     fuel: "Bensin",
@@ -14,7 +18,7 @@ export const cars = [
     name: "Toyota Innova Zenix",
     tag: "Keluarga",
     description: "Lebih lega, cocok bagi Anda dan keluarga.",
-    image: "../assets/toyota-innova-zenix.jpg",
+    image: innovaZenixImg,
     alt: "Black modern MPV",
     transmission: "Hybrid",
     transmissionIcon: "bolt",
@@ -27,7 +31,7 @@ export const cars = [
     name: "Mitsubishi Pajero",
     tag: "Premium",
     description: "Ketangguhan melibas segala medan.",
-    image: "../assets/pajero.jpg",
+    image: pajeroImg,
     alt: "Silver SUV in nature",
     transmission: "7 Kursi",
     transmissionIcon: "groups",
